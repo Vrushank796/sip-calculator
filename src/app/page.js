@@ -36,7 +36,7 @@ const Home = () => {
         interest={interest}
         years={years}
       />
-      <SliderInput
+      {/* <SliderInput
         label="Investment Amount"
         value={investment}
         onChange={setInvestment}
@@ -67,18 +67,18 @@ const Home = () => {
         min={0}
         max={10}
         step={0.1}
-      />
-      <ExportOptions onExport={handleExport} />
-      <MonthlyBreakdownChart
+      /> */}
+      {/* <ExportOptions onExport={handleExport} /> */}
+      {/* <MonthlyBreakdownChart
         monthlyReturns={monthlyReturns}
         inflationAdjustedReturns={inflationAdjustedReturns}
-      />
-      <ComparisonChart
+      /> */}
+      {/* <ComparisonChart
         data1={monthlyReturns}
         data2={inflationAdjustedReturns}
-      />
-      <InvestmentTips />
-      <Glossary />
+      /> */}
+      {/* <InvestmentTips />
+      <Glossary /> */}
     </div>
   );
 };
