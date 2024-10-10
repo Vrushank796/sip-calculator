@@ -30,7 +30,7 @@ const Home = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <DarkModeToggle />
+      {/* <DarkModeToggle /> */}
       <SIPCalculator
         investment={investment}
         interest={interest}
